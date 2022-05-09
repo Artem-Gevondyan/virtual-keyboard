@@ -1,0 +1,159 @@
+@font-face {
+	font-family: 'Merriweather', serif;
+	src: local('Merriweather'),
+		url(fonts/OleoScriptSwashCaps-Bold.ttf);
+}
+
+.screen {
+	display: block;
+	width: 740px;
+	height: 200px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+header {
+	height: 50px;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.headerTitle {
+	align-items: center;
+	font-size: 32px;
+	font-family: Merriweather;
+	color: rgb(93, 191, 0);
+}
+
+.keyboard {
+	width: 704px;
+	background: #888888;
+	border: 3px solid #392935;
+	border-radius: 5px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 5px 0 0;
+}
+
+.keyboard_row {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 8px;
+	content: 'hi';
+}
+
+.key {
+	width: 40px;
+	height: 40px;
+	background: #444444;
+	float: left;
+	margin-left: 6px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.key1_0:before {content: '`';}
+.key1_1:before {content: '1';}
+.key1_2:before {content: '2';}
+.key1_3:before {content: '3';}
+.key1_4:before {content: '4';}
+.key1_5:before {content: '5';}
+.key1_6:before {content: '6';}
+.key1_7:before {content: '7';}
+.key1_8:before {content: '8';}
+.key1_9:before {content: '9';}
+.key1_10:before {content: '0';}
+.key1_11:before {content: '-';}
+.key1_12:before {content: '=';}
+.key1_13:before {content: 'Backspace';}
+
+.key2_0:before {content: 'Tab';}
+.key2_1:before {content: 'q';}
+.key2_2:before {content: 'w';}
+.key2_3:before {content: 'e';}
+.key2_4:before {content: 'r';}
+.key2_5:before {content: 't';}
+.key2_6:before {content: 'y';}
+.key2_7:before {content: 'u';}
+.key2_8:before {content: 'i';}
+.key2_9:before {content: 'o';}
+.key2_10:before {content: 'p';}
+.key2_11:before {content: '[';}
+.key2_12:before {content: ']';}
+.key2_13:before {content: '\\';}
+.key2_14:before {content: 'Del';}
+
+.key3_0:before {content: 'CapsLock';}
+.key3_1:before {content: 'a';}
+.key3_2:before {content: 's';}
+.key3_3:before {content: 'd';}
+.key3_4:before {content: 'f';}
+.key3_5:before {content: 'g';}
+.key3_6:before {content: 'h';}
+.key3_7:before {content: 'j';}
+.key3_8:before {content: 'k';}
+.key3_9:before {content: 'l';}
+.key3_10:before {content: ';';}
+.key3_11:before {content: '\'';}
+.key3_12:before {content: 'Enter';}
+
+.key4_0:before {content: 'Shift';}
+.key4_1:before {content: 'z';}
+.key4_2:before {content: 'x';}
+.key4_3:before {content: 'c';}
+.key4_4:before {content: 'v';}
+.key4_5:before {content: 'b';}
+.key4_6:before {content: 'n';}
+.key4_7:before {content: 'm';}
+.key4_8:before {content: ',';}
+.key4_9:before {content: '.';}
+.key4_10:before {content: '/';}
+.key4_11:before {content: '▲';}
+.key4_12:before {content: 'Shift';}
+
+.key5_0:before {content: 'Ctrl';}
+.key5_1:before {content: 'Win';}
+.key5_2:before {content: 'Alt';}
+.key5_3:before {content: ' ';}
+.key5_4:before {content: 'Alt';}
+.key5_5:before {content: '◄';}
+.key5_6:before {content: '▼';}
+.key5_7:before {content: '►';}
+.key5_8:before {content: 'Ctrl';}
+
+.key1_13, .key2_0, .key2_14, .key3_0, .key3_12, .key4_0, .key4_11, .key4_12, .key5_0, .key5_1, .key5_2, .key5_4, .key5_5, .key5_6, .key5_7, .key5_8{
+	background: #222;
+}
+
+.key1_13{
+	width: 100px;
+}
+.key3_0, .key4_0{
+	width: 100px;
+}
+
+.key3_12, .key4_12{
+	width: 86px;
+}
+
+.key2_0{
+	width: 50px;
+}
+
+.key2_14{
+	width: 44px;
+}
+
+.key5_3{
+	width: 330px;
+}
+
+.key{
+	color: #fff;
+	line-height: 40px;
+}
+
+.active:hover{
+	background: rgb(79, 129, 58);
+}
